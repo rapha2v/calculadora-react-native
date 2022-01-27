@@ -1,6 +1,8 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "lib": ["ES2016","ESNext", "ES5"],
+    "module": "CommonJS",
+    "strict": true,
   }
 }
